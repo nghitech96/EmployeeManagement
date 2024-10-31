@@ -1,0 +1,127 @@
+#root {
+  
+  line-height: 0%;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  inset-block-start: 0;
+  inset-block-end: 100%;
+  inline-size: 100%;
+  text-align: center;
+}
+
+.logo {
+  block-size: 5em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.footer {
+  position: absolute;
+  inset-block-end: 0;
+  inline-size: 100%;
+  block-size: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.footer-content {
+  display: flex;         /* Sử dụng flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center;   /* Căn giữa theo chiều dọc (nếu cần) */
+  block-size: 100%;          /* Chiều cao đầy đủ (nếu cần) */
+}
+
+.table {
+  inline-size: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-block-end: 20px;
+}
+
+.form {
+  display: block;
+  border: 1cm;
+}
+
+.form-group {
+  margin-block-end: 15px;
+}
+
+label {
+  display: block;
+  margin-block-end: 20px;
+}
+
+input {
+  inline-size: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  inline-size: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
